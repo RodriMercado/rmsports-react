@@ -1,0 +1,63 @@
+.detail-wrapper {
+  max-width: 52rem;
+  width: 100%;
+  margin: auto;
+}
+
+.detail-wrapper .card {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  align-items: center;
+
+  padding: 1rem;
+  --text: black;
+  --card: white;
+  --text-secondary: rgb(17, 17, 17);
+}
+
+.detail-wrapper .card:hover {
+  transform: none;
+}
+
+.detail-wrapper .card h3 {
+  font-size: 1.75rem;
+  line-height: 1.2;
+  min-height: auto;
+  text-align: center;
+}
+
+.detail-wrapper .card img {
+  grid-row: 1 / span 10;
+  height: 100%;
+  min-height: 22rem;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.detail-wrapper .card > *:not(img) {
+  grid-column: 2;
+}
+
+.detail-wrapper .card p:first-of-type {
+  display: block;
+  overflow: visible;
+  -webkit-line-clamp: unset;
+  line-clamp: unset;
+  -webkit-box-orient: initial;
+  flex: none;
+}
+
+.btn-cart {
+  background-color: rgb(0, 89, 255);
+  border: 0;
+  padding: 15px;
+  border-radius: 0.5rem;
+  justify-self: center;
+  width: 12rem;
+  cursor: pointer;
+}
+
+.btn-cart:hover {
+  background-color: rgb(2, 73, 204);
+}

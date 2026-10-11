@@ -1,19 +1,19 @@
-.nav{
+.nav-list{
     padding: 10px;
     font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
     font-weight: 600;
 }
-.nav ul{
+.nav-list ul{
     list-style: none;
     display: flex;
     gap:  20px;
 }
 
-.nav a{
+.nav-list a{
     color: white;
     text-decoration: none;
 }
 
-.nav a:hover{
+.nav-list a:hover{
     color: rgb(0, 89, 255);
 }
