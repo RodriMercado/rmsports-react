@@ -64,3 +64,41 @@
   background-color: #EA580C;
   color: white;
 }
+
+
+@media (max-width: 768px) {
+  .detail-wrapper {
+    padding: 0 12px;
+    box-sizing: border-box;
+    
+  }
+
+  .detail-wrapper .card {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding: 0.75rem;
+    box-sizing: border-box;
+  }
+
+  .detail-wrapper .card img {
+    grid-row: auto; 
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    max-height: 22rem;
+    aspect-ratio: 4 / 3;
+  }
+
+  .detail-wrapper .card > *:not(img) {
+    grid-column: 1;
+  }
+
+  .detail-wrapper .card h3 {
+    font-size: 1.4rem;
+  }
+
+  .btn-cart {
+    width: 100%;
+    max-width: 16rem;
+  }
+}
