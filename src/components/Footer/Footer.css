@@ -68,12 +68,12 @@ footer li:hover {
     }
 
     .text-footer {
-        width: 100%;               /* en vez de 400px */
-        max-width: 400px;          /* sigue sin pasarse en pantallas medianas */
+        width: 100%;
+        max-width: 400px;
     }
 
     .copyright-list {
-        width: 100%;               /* en vez de 1400px */
+        width: 100%;
         text-align: center;
     }
 
