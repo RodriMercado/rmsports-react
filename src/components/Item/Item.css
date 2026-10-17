@@ -7,7 +7,7 @@
     border-radius: 14px;
     overflow: hidden;
     transition: 0.25s;
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.18);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.50);
 }
 
 .card-link {
@@ -38,12 +38,12 @@
 
 .card p:first-of-type {
     padding: 0 1rem;
-    color: var(--text-secondary);
+    color: #8295af;
     line-height: 1.5;
     font-size: 0.9rem;
 
     display: -webkit-box;
-    -webkit-line-clamp: 1;
+    -webkit-line-clamp: 2;
     line-clamp: 1;
     -webkit-box-orient: vertical;
     overflow: hidden;
@@ -62,4 +62,22 @@
 
 .card button {
     margin: 0 1rem 1rem;
+}
+
+
+
+/* Ver producto */
+.card .showProduct {
+    display: inline-block;
+    margin: 20px;
+    color: #2563EB;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    align-self: flex-start;
+}
+
+.card .showProduct:hover {
+    color: #1D4ED8;
 }

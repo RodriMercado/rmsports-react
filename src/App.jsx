@@ -13,6 +13,7 @@ function App() {
     
     <Header />
     <main>
+      <hr className='line-color'/>
       <Routes>
         <Route path="/" element={<ItemListContainer />} />
         <Route path="/cart" element={<h2>Carrito</h2>} />
@@ -21,7 +22,6 @@ function App() {
       </Routes>
 
     </main>
-
     <Footer />
 
     </>

@@ -6,9 +6,12 @@ import logo from '../../assets/logo.png'
 export const Header = () => {
     return(
         <header className="header">
-            <Link to={"/"}> <img className="logo" src={logo} alt="Logo RM-Sports" /></Link>
+            <div className="header-content">
+                <Link to={"/"}><img className="logo" src={logo} alt="Logo RM-Sports" /></Link>
 
-            <Nav />
+                <Nav/>
+            </div>
+
         </header>
 
     );

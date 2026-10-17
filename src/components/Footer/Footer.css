@@ -1,20 +1,16 @@
 footer {
-    background-color: #1d1f24;
-    color: white;
+    background-color: rgb(11, 20, 37);
+    color: #8295af;
     padding: 1.5rem 3rem;
-    border-radius: 20px;
     margin-top: 4rem;
 
-    display: flex;
-    align-items: center;
 }
 
 footer .nav-list {
-    display: flex;
     gap: 1.5rem;
-    margin: 0;
-    padding: 0;
+    font-size: 0.8rem;
     list-style: none;
+    justify-items: start;
 }
 
 footer li {
@@ -24,4 +20,51 @@ footer li {
 
 footer li:hover {
     color: var(--primary);
+}
+
+/* Columnas del footer */
+.footer-list{
+    width: 100%;
+    max-width: 1400px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    justify-items: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.title-footer{
+    font-size: 1rem;
+
+}
+
+.text-footer{
+    font-size: 0.7rem;
+    width: 400px;
+}
+
+.text-copyright{
+    font-size: 0.80rem;
+    margin-top: 20px;
+}
+.copyright-list{
+    width: 1400px;
+    margin: 0 auto;
+}
+/* Responsive */
+@media (max-width: 768px) {
+    .footer-list {
+        grid-template-columns: 1fr 1fr; 
+        justify-items: center;      
+        gap: 24px 16px;
+        padding: 12px;
+    }
+
+    .footer-list > :first-child {
+        /* Columnas ocupan todo el ancho */
+        
+        grid-column: 1 / -1;
+    }
+
 }

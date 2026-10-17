@@ -6,7 +6,7 @@
 .nav-list ul{
     list-style: none;
     display: flex;
-    gap:  20px;
+    gap: 20px;
 }
 
 .nav-list a{
@@ -15,5 +15,22 @@
 }
 
 .nav-list a:hover{
-    color: rgb(0, 89, 255);
+   color: #1D4ED8;
+}
+
+.incart{
+    background-color: #EA580C;
+    padding: 6px;
+    margin-left: 5px;
+    border-radius: 2rem;
+    height: 20px;
+    min-width: 20px;
+    font-size: 15px;
+    color: white;
+    font-size: 12px;
+
+}
+
+.nav-list a:hover .incart {
+    color: white;
 }

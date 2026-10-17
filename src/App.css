@@ -183,8 +183,28 @@
   }
 }
 
+
+/* CSS Extras */
+
+/* Main size */
+main {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    flex: 1;
+}
+
 /* CSS app.jsx */
 h2{
   font-size: 2rem;
   margin: 20px;
 }
+
+/* Linea separadora */
+.line-color{
+  border: none;
+  height: 1px;
+  background-color: #092155;
+}
+

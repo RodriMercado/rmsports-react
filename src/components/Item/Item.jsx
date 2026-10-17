@@ -1,5 +1,7 @@
 import "./Item.css"
-export const Item = ({name, price, description, image, children}) => {
+import { Link } from "react-router-dom";
+
+export const Item = ({id,name, price, description, image, children, showProduct=true}) => {
     return(
         <article className="card">
             <img src={image} />
@@ -7,7 +9,14 @@ export const Item = ({name, price, description, image, children}) => {
             <p>{description}</p>
             <p>${price}</p>
 
-            
+            {showProduct && (
+                <Link to={`/product/${id}`} className="showProduct">
+                    Ver producto → 
+                </Link>
+
+            )}
+
+
             {children}
         </article>
     )

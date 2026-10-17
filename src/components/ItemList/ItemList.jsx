@@ -10,10 +10,9 @@ export const ItemList = ({ products }) => {
     return (
         <div className="products-container">
             {products.map((product) => (
-                <Link to={`/product/${product.id}`} key={product.id} className="card-link">
-                    <Item {...product} />
-                </Link>
+                <Item {...product}/>
             ))}
         </div>
     );
 };
+
