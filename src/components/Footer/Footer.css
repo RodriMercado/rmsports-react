@@ -67,4 +67,14 @@ footer li:hover {
         grid-column: 1 / -1;
     }
 
+    .text-footer {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .copyright-list {
+        width: 100%;
+        text-align: center;
+    }
+
 }
