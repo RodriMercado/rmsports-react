@@ -4,7 +4,7 @@
     "image": "/img/NIKE-SB.jpg",
     "name": "Zapatillas NIKE SB gris",
     "description": "Zapatillas urbanas Nike SB de color gris, ideales para uso diario y skate.",
-    "price": "89.950",
+    "price": 89950,
     "categoria": "Zapatillas"
   },
   {
@@ -12,48 +12,48 @@
     "image": "/img/ADIDAS-Forum.jpg",
     "name": "Zapatillas ADIDAS Forum Low",
     "description": "Zapatillas Adidas Forum Low de estilo clásico, cómodas y versátiles para uso diario.",
-    "price": "92.990"
+    "price": 92990
   },
   {
     "id": 3,
     "image": "/img/NIKE-AirMax.jpg",
     "name": "Zapatillas NIKE Air Max",
     "description": "Zapatillas Nike Air Max con diseño moderno y excelente comodidad para el uso diario.",
-    "price": "105.990"
+    "price": 105990
   },
   {
     "id": 4,
     "image": "/img/ADIDAS-Ultraboost.jpg",
     "name": "Zapatillas ADIDAS Ultraboost Light 2.0",
     "description": "Zapatillas Adidas Ultraboost diseñadas para brindar comodidad y amortiguación durante todo el día.",
-    "price": "119.990"
+    "price": 119990
   },
   {
     "id": 5,
     "image": "/img/PUMA-RS-X-Reinvention.jpg",
     "name": "Zapatillas PUMA RS-X Reinvention",
     "description": "Zapatillas PUMA RS-X Reinvention con un diseño deportivo y urbano, ideales para combinar con distintos estilos.",
-    "price": "98.500"
+    "price": 98500
   },
   {
     "id": 6,
     "image": "/img/NIKE-Mercurial.jpg",
     "name": "Botines NIKE Mercurial",
     "description": "Botines Nike Mercurial diseñados para ofrecer velocidad, control y excelente agarre sobre el campo.",
-    "price": "125.990"
+    "price": 125990
   },
   {
     "id": 7,
     "image": "/img/ADIDAS-Predator-Elite-Terreno.jpg",
     "name": "Botines ADIDAS Predator Elite Terreno",
     "description": "Botines Adidas Predator Elite Terreno con tecnología enfocada en el control y precisión del balón.",
-    "price": "139.990"
+    "price": 139990
   },
   {
     "id": 8,
     "image": "/img/PUMA-Future-7.jpg",
     "name": "Botines PUMA Future 7",
     "description": "Botines PUMA Future 7 con diseño deportivo, ajuste cómodo y gran estabilidad para el juego.",
-    "price": "115.500"
+    "price": 115500
   }
 ]

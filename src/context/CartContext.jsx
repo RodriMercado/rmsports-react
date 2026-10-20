@@ -43,7 +43,7 @@ export const CartProvider = ({children}) =>{
     }
 
     // Eliminar producto
-    const removeItem = (item) =>{
+    const removeItem = (id) =>{
         const updatedCart = cart.filter((element) => element.id !== id);
         setCart(updatedCart);
         alert("Producto eliminado");

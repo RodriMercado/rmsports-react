@@ -5,6 +5,7 @@ import { ItemListContainer } from './components/ItemListContainer/ItemListContai
 import { Routes, Route} from 'react-router-dom'
 import { ItemDetailContainer } from './components/ItemDetailContainer/ItemDetailContainer'
 import { FormContainer } from './components/FormContainer/FormContainer'
+import { CartView } from './components/Cart/CartView'
 
 function App() {
 
@@ -16,7 +17,7 @@ function App() {
       <hr className='line-color'/>
       <Routes>
         <Route path="/" element={<ItemListContainer />} />
-        <Route path="/cart" element={<h2>Carrito</h2>} />
+        <Route path="/cart" element={<CartView />} />
         <Route path="/contacto" element={<FormContainer />} />
         <Route path="/product/:id" element={<ItemDetailContainer />} />
       </Routes>
