@@ -1,16 +1,35 @@
-# React + Vite
+# 🛒 RM Sports
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tienda online de calzado deportivo donde puedes explorar productos, consultar sus detalles y agregarlos al carrito.
 
-Currently, two official plugins are available:
+## ▶️ Despliegue
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+La aplicación conecta con Firebase para la autenticación y los datos de productos, y utiliza ImgBB para alojar imágenes. Antes de desplegarla, configura las credenciales y claves necesarias mediante variables de entorno y evita incluir claves privadas en el código fuente. Configura el alojamiento para redirigir las rutas de la aplicación a `index.html`.
 
-## React Compiler
+**Demo:** [https://rmsports.netlify.app/](https://rmsports.netlify.app/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- Catálogo de productos.
+- Vista de detalle para cada producto.
+- Carrito de compras con cálculo del total.
+- Formulario de contacto.
+- Inicio de sesión y panel de administración.
+- Creación de productos desde el panel.
+- Carga de imágenes para los productos.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Tecnologías
+
+- React + Vite
+- HTML5
+- CSS3
+- Firebase Authentication y Firestore
+- ImgBB para alojar imágenes
+
+## 🔐 Acceso de administrador
+- **Email:** `admin@admin.com`
+- **Contraseña:** `admin123`
+
+## 👨‍💻 Autor
+
+Creado por [RodriMercado](https://github.com/RodriMercado).
