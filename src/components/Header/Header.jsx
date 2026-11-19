@@ -10,8 +10,9 @@ export const Header = () => {
                 <Link to={"/"}><img className="logo" src={logo} alt="Logo RM-Sports" /></Link>
 
                 <Nav/>
+                
             </div>
-
+        <hr className="line-color" />
         </header>
 
     );

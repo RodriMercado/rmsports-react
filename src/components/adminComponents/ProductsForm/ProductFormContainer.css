@@ -1,0 +1,126 @@
+.product-form {
+  box-sizing: border-box;
+  width: 90%;
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 2rem;
+
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 14px;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.product-form h2 {
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #000000;
+}
+
+.product-form > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.2rem;
+}
+
+.product-form label {
+  font-weight: 600;
+  color: #000000;
+}
+
+.product-form input[type="text"],
+.product-form input[type="number"],
+.product-form input[type="file"],
+.product-form textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.8rem 1rem;
+
+  background-color: #fffefe;
+  color: #000000;
+
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+
+  font: inherit;
+
+  transition: border-color 0.25s, box-shadow 0.25s;
+}
+
+.product-form textarea {
+  min-height: 130px;
+  resize: vertical;
+}
+
+.product-form input:focus,
+.product-form textarea:focus {
+  outline: none;
+  border-color: rgb(0, 89, 255);
+  box-shadow: 0 0 0 3px rgba(100, 108, 255, 0.15);
+}
+
+.product-form input::placeholder,
+.product-form textarea::placeholder {
+  color: #333333;
+}
+
+.product-form input[type="file"] {
+  cursor: pointer;
+}
+
+.product-form button {
+  color: #fff;
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.9rem;
+
+  cursor: pointer;
+  transition: opacity 0.25s, transform 0.25s;
+}
+
+.product-form button:hover:not(:disabled) {
+  transform: translateY(-2px);
+}
+
+.product-form button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.product-form img {
+  width: 220px;
+  max-width: 100%;
+
+  border-radius: 10px;
+  border: 1px solid #cccccc;
+
+  margin-top: 0.5rem;
+}
+
+.error {
+  margin-top: 0.2rem;
+  color: var(--danger);
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+
+@media (max-width: 600px) {
+  .product-form {
+  box-sizing: border-box;
+    width: 95%;
+    padding: 1.2rem;
+    margin: 1.5rem auto;
+  }
+
+  .product-form h2 {
+    font-size: 1.4rem;
+  }
+
+  .product-form input,
+  .product-form textarea {
+    font-size: 16px;
+  }
+}

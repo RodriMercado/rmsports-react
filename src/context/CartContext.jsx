@@ -1,5 +1,6 @@
 import { createContext, useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { toastCheckout, toastError, toastRemove, toastSuccess } from "../components/NotificacionesToast/NotificacionesToast";
 
 
 /* ---------------------------------------------------------- */
@@ -34,19 +35,19 @@ export const CartProvider = ({children}) =>{
     // Agregar producto
     const addItem = (item) => {
         if(isInCart(item)){
-            alert("El producto ya existe en el carrito");
+            toastError();
             return;
         }
 
         setCart([...cart, item]);
-        alert("Producto agregado al carrito");
+        toastSuccess();
     }
 
     // Eliminar producto
     const removeItem = (id) =>{
         const updatedCart = cart.filter((element) => element.id !== id);
         setCart(updatedCart);
-        alert("Producto eliminado");
+        toastRemove();
     }
 
     // Limpiar carrito
@@ -66,7 +67,7 @@ export const CartProvider = ({children}) =>{
 
     // Checkout
     const checkout = () => {
-        alert("Su compra ha sido realizada");
+        toastCheckout();
         clearCart();
         navigate("/");
     }
